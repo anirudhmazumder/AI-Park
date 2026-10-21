@@ -1,0 +1,26 @@
+# macOS
+.DS_Store
+._*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Credentials (never commit)
+.env
+.env.*
+*.key
+*.pem
+
+# Interactive figures written by the KG_Visualization scripts (~5 MB each; regenerable)
+KG_Visualization/Final_Visualizations/
+*.mov
+*.mp4

@@ -1,0 +1,12 @@
+# Graph construction, analysis and figures (KG_Analysis/, KG_Visualization/).
+# Versions used for the manuscript (Python 3.13).
+networkx==3.6.1
+numpy==2.5.4
+plotly==7.1.0
+
+# Optional: only needed to recompute the layout (--relayout); the manuscript
+# layout is frozen in Final_KG/node_positions.json.
+scipy==1.18.1
+
+# Optional: static PNG export of the figures (--png / --manuscript); also needs Chrome.
+kaleido
